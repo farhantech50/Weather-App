@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="/css/style.css"></link>
+</head>
+<body>
+
+    <div class="container">
+        <div class="weather-title">
+            <h1>Weather Application</h1>
+            <p>View the current weather for your city</p>
+          </div>
+          <form action="/" method="POST">
+            <input type="text" name="city" placeholder="Enter a city">
+            <input onclick="location.href='/'" type="submit" class="button" value="Check Weather"></button>
+          </form>
+          <div class="result">
+            <% if(temp !== null)  {%>
+              <h1 class="temp"><%= temp %></h1>
+            <% } %>
+      
+            <% if(city !== null)  {%>
+              <p class="city"><%= city %></p>
+            <% } %>
+            
+          </div>
+
+    </div>
+
+
+</body>
+</html>
