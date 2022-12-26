@@ -16,7 +16,7 @@ body {
 }
 .button {
   margin: 1.3rem 6.5rem;
-  background-color: #2596be;
+  background-color: #be2525;
   height: 2rem;
   width: 8rem;
   font-weight: bold;
@@ -27,7 +27,7 @@ body {
 }
 
 .weather-title h1 {
-  color: #58be25;
+  color: #be2525;
   font-weight: bold;
   font-size: 1.6rem;
 }
